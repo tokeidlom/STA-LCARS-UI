@@ -539,7 +539,7 @@ form .hint {
 }
  .sta.tracker-container {
   right: 300px;
-  bottom: 67px;
+  bottom: 20px;
   display: flex;
   flex-direction: column;
   background-color: #0f0f0fef;
@@ -608,7 +608,7 @@ form .hint {
   border-style: solid;
   margin: unset;
   width: 170px;
-  height: 30px;
+  height: 70px;
 }
 .sta.tracker-container .tracker .button-group .button {
   border-radius: 0px;
