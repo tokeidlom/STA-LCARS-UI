@@ -1079,6 +1079,9 @@ form .hint {
   flex-direction: row-reverse;
   align-items: center;
 }
+.sta.sheet.actor .main > .row .column .section .stat.row .field.numeric-entry{
+  color: #F7E06E;
+}
 .sta.sheet.actor .main .row .column .check-button,
 .sta.sheet.actor .main > .row .column .section .check-button {
   color: #F7E06E;
