@@ -1421,6 +1421,7 @@ form .hint {
   color: #F7E06E;
   font-family: 'Teko', sans-serif;
   text-transform: uppercase;
+  font-size: 24px;
 }
 .sta.sheet.actor.extendedtask .row .extendedtask-divider {
   display: none;
