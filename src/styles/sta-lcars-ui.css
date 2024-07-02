@@ -1417,6 +1417,11 @@ form .hint {
 .sta.sheet.actor.extendedtask .row:nth-child(4) .lcars-column {
   display: none;
 }
+.sta.sheet.actor.extendedtask .row .column-headerfields2-extendedtasks .numeric-entry {
+  color: #F7E06E;
+  font-family: 'Teko', sans-serif;
+  text-transform: uppercase;
+}
 .sta.sheet.actor.extendedtask .row .extendedtask-divider {
   display: none;
 }
