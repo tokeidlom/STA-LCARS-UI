@@ -1293,6 +1293,7 @@ form .hint {
 }
 .sta.sheet.actor .header-fields .section.reputation .track {
   flex-grow: 1;
+  color: #dfdfdf;
 }
 .sta.sheet.actor .header-fields .section.reputation .track .bar .box.rep {
   background-color: #00273f;
