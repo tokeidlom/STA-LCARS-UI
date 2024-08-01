@@ -8,7 +8,7 @@
       "flags": {}
     }
   ],
-  "version": "0.4.2",
+  "version": "0.4.3",
   "compatibility": {
     "minimum": "9",
     "verified": "12"
@@ -21,6 +21,6 @@
   ],
   "url": "https://github.com/tokeidlom/STA-LCARS-UI",
   "manifest": "https://raw.githubusercontent.com/tokeidlom/STA-LCARS-UI/main/src/module.json",
-  "download": "https://raw.githubusercontent.com/tokeidlom/STA-LCARS-UI/main/package/sta-lcars-ui-v0.4.2.zip",
+  "download": "https://raw.githubusercontent.com/tokeidlom/STA-LCARS-UI/main/package/sta-lcars-ui-v0.4.3.zip",
   "id": "sta-lcars-ui"
 }

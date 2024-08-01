@@ -1,10 +1,44 @@
-@font-face{font-family:'Teko';font-style:normal;font-weight:400;font-display
-:swap;src:url(https://fonts.gstatic.com/s/teko/v15/LYjNdG7kmE0gTaQ.ttf) format('truetype')}@font-face{font-family:'Roboto Condensed';font-style:italic;font-weight:400;font-display
-:swap;src:url(https://fonts.gstatic.com/s/robotocondensed/v25/ieVj2ZhZI2eCN5jzbjEETS9weq8-19e7CA.ttf) format('truetype')}@font-face{font-family:'Roboto Condensed';font-style:italic;font-weight:700;font-display
-:swap;src:url(https://fonts.gstatic.com/s/robotocondensed/v25/ieVg2ZhZI2eCN5jzbjEETS9weq8-19eDtCYYag.ttf) format('truetype')}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;font-display
-:swap;src:url(https://fonts.gstatic.com/s/robotocondensed/v25/ieVl2ZhZI2eCN5jzbjEETS9weq8-59U.ttf) format('truetype')}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;font-display
-:swap;src:url(https://fonts.gstatic.com/s/robotocondensed/v25/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meKCM.ttf) format('truetype')}
-
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/teko/v20/LYjYdG7kmE0gV69VVPPdFl06VN8XG7Sy.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v27/ieVW2ZhZI2eCN5jzbjEETS9weq8-19ehAyvMum7nfDB64RgK5Xk.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v27/ieVW2ZhZI2eCN5jzbjEETS9weq8-19ehAyvMum7nfDB64f8N5Xk.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v27/ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyWyovBJ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v27/ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyVVpfBJ.ttf) format('truetype');
+}
+/*@darkest-blue: #123354;
+@darker-blue: #164069;
+@darker-blue-trans: #1640693f;
+@dark-blue: #0B67C1;
+@blue: #0D80F2;
+@light-blue: #3D99F5;*/
 :root {
   --color-text-dark-primary: #afafaf;
   --color-text-hyperlink: #F7E06E;
@@ -506,7 +540,7 @@ form .hint {
   background: none;
 }
 #chat-controls .roll-type-select {
-  background: rgba(0, 0, 0, 0.05);
+  background: #000000;
 }
 #chat-controls .control-buttons a {
   background-color: unset;
@@ -521,7 +555,7 @@ form .hint {
   border-style: solid;
   border-radius: 0px;
   border-color: #00273f;
-  background: rgba(0, 0, 0, 0.05);
+  background: #000000;
 }
 #chat-form textarea:hover {
   border-color: #004f7f;
@@ -531,21 +565,25 @@ form .hint {
   box-shadow: none;
 }
 .directory .directory-header .header-search input {
-  background: rgba(0, 0, 0, 0.05);
+  background: #000000;
 }
 #context-menu li.context-item:hover {
   text-shadow: unset;
   background-color: #00273f;
 }
- .sta.tracker-container {
+.sta.tracker-container {
   right: 300px;
-  bottom: 40px;
+  bottom: 67px;
   display: flex;
   flex-direction: column;
   background-color: #0f0f0fef;
   border-radius: unset;
   border-top-left-radius: 20px;
   height: unset;
+}
+.sta.tracker-container.hide {
+  bottom: -190px;
+  bottom: -100px;
 }
 .sta.tracker-container .tracker-clickable {
   width: 25px;
@@ -657,10 +695,6 @@ form .hint {
   font-size: 20px;
   height: 25px;
 }
-.sta.tracker-container.hide {
-  bottom: -190px;
-  bottom: -100px;
-}
 .left-halfcircle-border {
   border-radius: 18px 0 0 18px;
   border-width: 0 0 0 18px;
@@ -689,8 +723,8 @@ form .hint {
 #controls ol.control-tools > li {
   box-sizing: border-box;
   width: 57px;
-  border: unset;
   background-color: transparent;
+  border: unset;
   border-color: transparent;
   border-image-width: 0px;
   text-align: start;
@@ -761,8 +795,8 @@ form .hint {
 #controls ol.sub-controls.active .control-tool {
   box-sizing: border-box;
   width: 47px;
-  border: unset;
   background-color: transparent;
+  border: unset;
   border-color: transparent;
   border-image-width: 0px;
   text-align: start;
@@ -1083,10 +1117,6 @@ form .hint {
   flex-direction: row-reverse;
   align-items: center;
 }
-.sta.sheet.actor .main > .row .column .section .stat.row .field.numeric-entry{
-  color: #F7E06E;
-}
-.sta.sheet.actor .main .row .column .check-button,
 .sta.sheet.actor .main > .row .column .section .check-button {
   color: #F7E06E;
   font-family: 'Teko', sans-serif;
@@ -1097,7 +1127,7 @@ form .hint {
   text-align: center;
   background-color: transparent;
   border: solid #0077af;
-  border-width: 0 20px;
+  border-width: 0 20px ;
   width: unset;
   margin: 8px 16px 4px;
 }
@@ -1109,11 +1139,9 @@ form .hint {
   color: #F2200D;
   border-color: #F2200D;
 }
-.sta.sheet.actor .main > .row .column .check-button.btn.attribute,
 .sta.sheet.actor .main > .row .column .section .check-button.btn.attribute {
   border-color: #0077af;
 }
-.sta.sheet.actor .main > .row .column .check-button.btn.attribute:hover,
 .sta.sheet.actor .main > .row .column .section .check-button.btn.attribute:hover {
   color: #009dff;
   border-color: #009dff;
@@ -1126,21 +1154,21 @@ form .hint {
   color: #afafaf;
   line-height: unset;
 }
-.sta.sheet.actor .main > .row .column .section.reservepower,
-.sta.sheet.actor .main > .row .column .section.shaken,
-.sta.sheet.actor .main > .row .column .section.scale2e,
 .sta.sheet.actor .main > .row .column .section.scale,
-.sta.sheet.actor .main > .row .column .section.resistance {
+.sta.sheet.actor .main > .row .column .section.resistance,
+.sta.sheet.actor .main > .row .column .section.shaken,
+.sta.sheet.actor .main > .row .column .section.reservepower,
+.sta.sheet.actor .main > .row .column .section.scale2e {
   background-color: unset;
   display: flex;
   flex-direction: row;
   height: auto;
 }
-.sta.sheet.actor .main > .row .column .section.reservepower .title,
-.sta.sheet.actor .main > .row .column .section.shaken .title,
-.sta.sheet.actor .main > .row .column .section.scale2e .title,
 .sta.sheet.actor .main > .row .column .section.scale .title,
-.sta.sheet.actor .main > .row .column .section.resistance .title {
+.sta.sheet.actor .main > .row .column .section.resistance .title,
+.sta.sheet.actor .main > .row .column .section.shaken .title,
+.sta.sheet.actor .main > .row .column .section.reservepower .title,
+.sta.sheet.actor .main > .row .column .section.scale2e .title {
   flex-grow: 1;
   background-color: unset;
   display: unset;
@@ -1149,24 +1177,26 @@ form .hint {
   margin-right: 8px;
   line-height: 30px;
 }
-.sta.sheet.actor .main > .row .column .section.shaken .title::before,
-.sta.sheet.actor .main > .row .column .section.shaken .title::after,
-.sta.sheet.actor .main > .row .column .section.reservepower .title::before,
-.sta.sheet.actor .main > .row .column .section.reservepower .title::after
-.sta.sheet.actor .main > .row .column .section.scale2e .title::before,
-.sta.sheet.actor .main > .row .column .section.scale2e .title::after,
 .sta.sheet.actor .main > .row .column .section.scale .title::before,
-.sta.sheet.actor .main > .row .column .section.scale .title::after,
 .sta.sheet.actor .main > .row .column .section.resistance .title::before,
-.sta.sheet.actor .main > .row .column .section.resistance .title::after {
+.sta.sheet.actor .main > .row .column .section.shaken .title::before,
+.sta.sheet.actor .main > .row .column .section.reservepower .title::before,
+.sta.sheet.actor .main > .row .column .section.scale2e .title::before,
+.sta.sheet.actor .main > .row .column .section.scale .title::after,
+.sta.sheet.actor .main > .row .column .section.resistance .title::after,
+.sta.sheet.actor .main > .row .column .section.shaken .title::after,
+.sta.sheet.actor .main > .row .column .section.reservepower .title::after,
+.sta.sheet.actor .main > .row .column .section.scale2e .title::after {
   all: unset;
 }
 .sta.sheet.actor .main > .row .column .section.scale .field.numeric-entry,
-.sta.sheet.actor .main > .row .column .section.scale2e .field.numeric-entry,
-.sta.sheet.actor .main > .row .column .section.resistance .field.numeric-entry {
-  color: #F7E06E;
+.sta.sheet.actor .main > .row .column .section.resistance .field.numeric-entry,
+.sta.sheet.actor .main > .row .column .section.shaken .field.numeric-entry,
+.sta.sheet.actor .main > .row .column .section.reservepower .field.numeric-entry,
+.sta.sheet.actor .main > .row .column .section.scale2e .field.numeric-entry {
   font-family: 'Teko', sans-serif;
   text-transform: uppercase;
+  color: #F7E06E;
   border-width: 1px;
   border-style: solid;
   border-radius: 0px;
@@ -1176,12 +1206,17 @@ form .hint {
   font-size: 24px;
 }
 .sta.sheet.actor .main > .row .column .section.scale .field.numeric-entry:hover,
-.sta.sheet.actor .main > .row .column .section.scale2e .field.numeric-entry:hover,
-.sta.sheet.actor .main > .row .column .section.resistance .field.numeric-entry:hover {
+.sta.sheet.actor .main > .row .column .section.resistance .field.numeric-entry:hover,
+.sta.sheet.actor .main > .row .column .section.shaken .field.numeric-entry:hover,
+.sta.sheet.actor .main > .row .column .section.reservepower .field.numeric-entry:hover,
+.sta.sheet.actor .main > .row .column .section.scale2e .field.numeric-entry:hover {
   border-color: #004f7f;
 }
 .sta.sheet.actor .main > .row .column .section.scale .field.numeric-entry:focus,
-.sta.sheet.actor .main > .row .column .section.resistance .field.numeric-entry:focus {
+.sta.sheet.actor .main > .row .column .section.resistance .field.numeric-entry:focus,
+.sta.sheet.actor .main > .row .column .section.shaken .field.numeric-entry:focus,
+.sta.sheet.actor .main > .row .column .section.reservepower .field.numeric-entry:focus,
+.sta.sheet.actor .main > .row .column .section.scale2e .field.numeric-entry:focus {
   background-color: #004f7f3f;
   box-shadow: none;
 }
@@ -1292,8 +1327,8 @@ form .hint {
   margin: 0 4px;
 }
 .sta.sheet.actor .header-fields .section.reputation .track {
-  flex-grow: 1;
   color: #dfdfdf;
+  flex-grow: 1;
 }
 .sta.sheet.actor .header-fields .section.reputation .track .bar .box.rep {
   background-color: #00273f;
@@ -1335,8 +1370,8 @@ form .hint {
   border-width: 0 0 26px 6px;
 }
 .sta.sheet.actor.starship .header-fields .row:nth-child(2),
-.sta.sheet.actor.starship .header-fields .row:nth-child(4),
 .sta.sheet.actor.smallcraft .header-fields .row:nth-child(2),
+.sta.sheet.actor.starship .header-fields .row:nth-child(4),
 .sta.sheet.actor.smallcraft .header-fields .row:nth-child(4) {
   margin-bottom: 8px;
 }
@@ -1417,12 +1452,6 @@ form .hint {
 }
 .sta.sheet.actor.extendedtask .row:nth-child(4) .lcars-column {
   display: none;
-}
-.sta.sheet.actor.extendedtask .row .column-headerfields2-extendedtasks .numeric-entry {
-  color: #F7E06E;
-  font-family: 'Teko', sans-serif;
-  text-transform: uppercase;
-  font-size: 24px;
 }
 .sta.sheet.actor.extendedtask .row .extendedtask-divider {
   display: none;
@@ -1526,6 +1555,7 @@ form .hint {
   color: #F7E06E;
 }
 .sta.sheet.actor .numeric-entry {
+  color: #F7E06E;
   text-align: end;
 }
 .sta.sheet.actor .list-entry {
@@ -1585,4 +1615,93 @@ form .hint {
 .app.dialog .window-content .dialog-buttons {
   background-color: unset;
   margin: 5px;
+}
+.dialog > .window-content .dialog-button.roll.default,
+.dialog > .window-content .dialog-button.dialog-button.ok.default,
+.dialog > .window-content .dialog-button.dialog-button.yes,
+.dialog > .window-content .dialog-button.dialog-button.no {
+  background-color: #0077af;
+  color: black;
+  font-weight: unset;
+}
+.dialog > .window-content .dialog-button.roll.default:hover,
+.dialog > .window-content .dialog-button.dialog-button.ok.default:hover,
+.dialog > .window-content .dialog-button.dialog-button.yes:hover,
+.dialog > .window-content .dialog-button.dialog-button.no:hover {
+  background-color: #009dff;
+}
+.dialog .dialog-buttons button {
+  background-color: #0077af;
+  border: none;
+  border-radius: 15px;
+}
+.dialog .dialog-buttons button:hover {
+  background-color: #009dff;
+  box-shadow: none;
+}
+.dialog .dialog-buttons button:focus {
+  box-shadow: none;
+}
+.monks-active-tiles div[data-tab="triggers"] .action-items .action-style {
+  color: #F7E06E;
+}
+.monks-active-tiles div[data-tab="triggers"] .action-items .value-style {
+  color: white;
+}
+.monks-active-tiles div[data-tab="triggers"] .action-items .entity-style {
+  color: white;
+}
+.monks-active-tiles.sheet .items-list .item .item-name {
+  color: #dfdfdf;
+}
+.action-sheet .display-value {
+  color: #F7E06E;
+}
+.prosemirror menu {
+  background: none;
+}
+.prosemirror menu .pm-dropdown {
+  background: #0077af;
+  border-radius: 0 13px 13px 0;
+  color: black;
+}
+.prosemirror menu .pm-dropdown i {
+  color: black;
+}
+.prosemirror menu .pm-dropdown i:hover {
+  color: black;
+}
+.prosemirror menu .pm-dropdown > i {
+  color: black;
+}
+.prosemirror menu .pm-dropdown > i:hover {
+  color: black;
+}
+.prosemirror menu .pm-dropdown ul {
+  background-color: #3D8F81;
+  border: none;
+  border-radius: 0;
+  padding: 0px;
+}
+.prosemirror menu .pm-dropdown li {
+  background: none;
+  border-radius: 0;
+  margin: 0;
+  padding: 2px 8px;
+}
+.prosemirror menu .pm-dropdown li:hover {
+  background-color: #70C2B4;
+}
+.prosemirror menu button {
+  background: #0077af;
+  border-radius: 0px;
+}
+.prosemirror menu button:hover {
+  background-color: #009dff;
+}
+.prosemirror menu button.active {
+  background-color: #F7E06E;
+}
+.prosemirror menu button.active:hover {
+  background-color: #FCF5CF;
 }
