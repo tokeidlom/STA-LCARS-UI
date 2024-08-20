@@ -44,7 +44,7 @@
   --color-text-hyperlink: #F7E06E;
   --color-border-highlight: #0077af;
 }
-body {
+* {
   scrollbar-color: #00273f transparent;
   scrollbar-width: thin;
   font-family: 'Roboto Condensed', sans-serif;
