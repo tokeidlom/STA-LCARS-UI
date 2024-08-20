@@ -4,11 +4,12 @@
   "authors": [
     {
       "name": "Fabulist",
-      "url": "https://foundryvtt.com/community/fabulist",
+	  "name": "CalinStar",
+      "url": "https://foundryvtt.com/community/calinstar/",
       "flags": {}
     }
   ],
-  "version": "0.4.4",
+  "version": "0.4.5",
   "compatibility": {
     "minimum": "9",
     "verified": "12"
@@ -21,6 +22,6 @@
   ],
   "url": "https://github.com/tokeidlom/STA-LCARS-UI",
   "manifest": "https://raw.githubusercontent.com/tokeidlom/STA-LCARS-UI/main/src/module.json",
-  "download": "https://raw.githubusercontent.com/tokeidlom/STA-LCARS-UI/main/package/sta-lcars-ui-v0.4.4.zip",
+  "download": "https://raw.githubusercontent.com/tokeidlom/STA-LCARS-UI/main/package/sta-lcars-ui-v0.4.5.zip",
   "id": "sta-lcars-ui"
 }

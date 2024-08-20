@@ -1146,10 +1146,14 @@ form .hint {
   color: #009dff;
   border-color: #009dff;
 }
-.sta.sheet.actor .main > .row .column .section .entry.row.talent-tooltip-container {
+.sta.sheet.actor .main > .row .column .section .entry.row.talent-tooltip-container,
+.sta.sheet.actor .main > .row .column .section .entry.row.focus-tooltip-container,
+.sta.sheet.actor .main > .row .column .section .entry.row.injury-tooltip-container {
   border: unset;
 }
-.sta.sheet.actor .main > .row .column .section .entry.row.talent-tooltip-container .list-entry.talent-tooltip-text {
+.sta.sheet.actor .main > .row .column .section .entry.row.talent-tooltip-container .list-entry.talent-tooltip-text,
+.sta.sheet.actor .main > .row .column .section .entry.row.focus-tooltip-container .list-entry.talent-tooltip-text,
+.sta.sheet.actor .main > .row .column .section .entry.row.injury-tooltip-container .list-entry.talent-tooltip-text {
   font-size: 12px;
   color: #afafaf;
   line-height: unset;
