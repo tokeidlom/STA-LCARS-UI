@@ -1274,43 +1274,6 @@ form .hint {
   display: flex;
   flex-direction: column;
 }
-.sta.sheet.actor .main > .row:nth-child(1) .column.right-column .section.discipline > div:nth-child(1),
-.sta.sheet.actor .main > .row:nth-child(1) .column.right-column .section.department > div:nth-child(1) {
-  order: 1;
-}
-.sta.sheet.actor .main > .row:nth-child(1) .column.right-column .section.discipline > div:nth-child(2),
-.sta.sheet.actor .main > .row:nth-child(1) .column.right-column .section.department > div:nth-child(2) {
-  order: 2;
-  margin-top: 0px;
-}
-.sta.sheet.actor .main > .row:nth-child(1) .column.right-column .section.discipline > div:nth-child(3),
-.sta.sheet.actor .main > .row:nth-child(1) .column.right-column .section.department > div:nth-child(3) {
-  order: 3;
-}
-.sta.sheet.actor .main > .row:nth-child(1) .column.right-column .section.discipline > div:nth-child(4),
-.sta.sheet.actor .main > .row:nth-child(1) .column.right-column .section.department > div:nth-child(4) {
-  order: 4;
-}
-.sta.sheet.actor .main > .row:nth-child(1) .column.right-column .section.discipline > div:nth-child(5),
-.sta.sheet.actor .main > .row:nth-child(1) .column.right-column .section.department > div:nth-child(5) {
-  order: 6;
-}
-.sta.sheet.actor .main > .row:nth-child(1) .column.right-column .section.discipline > div:nth-child(6),
-.sta.sheet.actor .main > .row:nth-child(1) .column.right-column .section.department > div:nth-child(6) {
-  order: 8;
-}
-.sta.sheet.actor .main > .row:nth-child(1) .column.right-column .section.discipline > div:nth-child(7),
-.sta.sheet.actor .main > .row:nth-child(1) .column.right-column .section.department > div:nth-child(7) {
-  order: 7;
-}
-.sta.sheet.actor .main > .row:nth-child(1) .column.right-column .section.discipline > div:nth-child(8),
-.sta.sheet.actor .main > .row:nth-child(1) .column.right-column .section.department > div:nth-child(8) {
-  order: 5;
-}
-.sta.sheet.actor .main > .row:nth-child(1) .column.right-column .section.discipline > div:nth-child(9),
-.sta.sheet.actor .main > .row:nth-child(1) .column.right-column .section.department > div:nth-child(9) {
-  order: 9;
-}
 .sta.sheet.actor .main-content > .header {
   margin-bottom: 8px;
 }
