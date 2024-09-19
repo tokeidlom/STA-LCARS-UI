@@ -1269,11 +1269,6 @@ form .hint {
 .sta.sheet.actor .main > .row:nth-child(1) .column.right-column {
   order: 3;
 }
-.sta.sheet.actor .main > .row:nth-child(1) .column.right-column .section.discipline,
-.sta.sheet.actor .main > .row:nth-child(1) .column.right-column .section.department {
-  display: flex;
-  flex-direction: column;
-}
 .sta.sheet.actor .main-content > .header {
   margin-bottom: 8px;
 }
