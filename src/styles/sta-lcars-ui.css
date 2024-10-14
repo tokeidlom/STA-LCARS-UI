@@ -33,12 +33,6 @@
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/robotocondensed/v27/ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyVVpfBJ.ttf) format('truetype');
 }
-/*@darkest-blue: #123354;
-@darker-blue: #164069;
-@darker-blue-trans: #1640693f;
-@dark-blue: #0B67C1;
-@blue: #0D80F2;
-@light-blue: #3D99F5;*/
 :root {
   --color-text-dark-primary: #afafaf;
   --color-text-hyperlink: #F7E06E;
@@ -374,7 +368,7 @@ form .hint {
 #sidebar:not(.collapsed) > #sidebar-tabs > .item:nth-child(odd):hover {
   background-color: #009dff;
 }
-#sidebar:not(.collapsed) > #sidebar-tabs > .item.active :hover {
+#sidebar:not(.collapsed) > #sidebar-tabs > .item.active:hover {
   background-color: #FCF5CF;
 }
 #sidebar:not(.collapsed) > #sidebar-tabs > .item.active:nth-child(odd):hover {
@@ -1127,7 +1121,7 @@ form .hint {
   text-align: center;
   background-color: transparent;
   border: solid #0077af;
-  border-width: 0 20px ;
+  border-width: 0 20px;
   width: unset;
   margin: 8px 16px 4px;
 }
@@ -1321,16 +1315,45 @@ form .hint {
   border-style: solid;
   border-width: 0 0 14px 6px;
 }
-.sta.sheet.actor.character .header-fields .row:nth-child(odd) {
+.sta.sheet.actor.character .data {
   margin-bottom: 8px;
 }
-.sta.sheet.actor.character .header-fields .row:nth-child(3) input {
+.sta.sheet.actor.character .acclaim .tabs .item {
+  color: #dfdfdf;
+}
+.sta.sheet.actor.character .acclaim .title {
+  justify-content: center;
+  align-items: center;
+}
+.sta.sheet.actor.character .check-button {
   color: #F7E06E;
   font-family: 'Teko', sans-serif;
   text-transform: uppercase;
-  font-size: 28px;
-  height: 48px;
-  line-height: 48px;
+  font-weight: unset;
+  font-size: 16px;
+  color: #0077af;
+  text-align: center;
+  background-color: transparent;
+  border: solid #0077af;
+  border-width: 0 20px;
+  width: unset;
+  margin: 8px 16px 4px;
+}
+.sta.sheet.actor.character .check-button.btn3.acclaim {
+  color: #F2CC0D;
+  border-color: #F2CC0D;
+}
+.sta.sheet.actor.character .check-button.btn3.acclaim:hover {
+  color: #F7E06E;
+  border-color: #F7E06E;
+}
+.sta.sheet.actor.character .header-fields .name-species-row input {
+  color: #F7E06E;
+  font-family: 'Teko', sans-serif;
+  text-transform: uppercase;
+  font-size: 28px !important;
+  height: 48px !important;
+  line-height: 48px !important;
 }
 .sta.sheet.actor.starship .header .lcars-column,
 .sta.sheet.actor.smallcraft .header .lcars-column {
