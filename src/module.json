@@ -3,16 +3,19 @@
   "description": "Improves the user interface of Foundry with the STA system.",
   "authors": [
     {
-      "name": "Fabulist",
-	  "name": "CalinStar",
+      "name": "Fabulist"
+    },
+    {
+      "name": "CalinStar",
       "url": "https://foundryvtt.com/community/calinstar/",
       "flags": {}
     }
   ],
-  "version": "0.5.0",
+  "version": "0.5.1",
   "compatibility": {
     "minimum": "9",
     "verified": "12"
+    "maximum": "12"
   },
   "esmodules": [
     "scripts/sta-lcars-ui.js"
@@ -20,8 +23,20 @@
   "styles": [
     "styles/sta-lcars-ui.css"
   ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "sta",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/mkscho63/sta/master/src/system.json",
+        "compatibility": {
+          "minimum": "1.3.2"
+        }
+      }
+    ]
+  },
   "url": "https://github.com/tokeidlom/STA-LCARS-UI",
   "manifest": "https://raw.githubusercontent.com/tokeidlom/STA-LCARS-UI/main/src/module.json",
-  "download": "https://raw.githubusercontent.com/tokeidlom/STA-LCARS-UI/main/package/sta-lcars-ui-v0.5.0.zip",
+  "download": "https://raw.githubusercontent.com/tokeidlom/STA-LCARS-UI/main/package/sta-lcars-ui-v0.5.1.zip",
   "id": "sta-lcars-ui"
 }
