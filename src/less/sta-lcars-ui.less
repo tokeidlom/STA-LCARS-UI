@@ -1314,6 +1314,16 @@ form .notes, form .hint {
         flex-direction: column;
         padding: 0;
 
+        .sheet-tabs {
+          background-color: @darkest-blue;
+        }
+
+        .sheet-tabs .item {
+          &.active {
+            background-color: @darkest-blue;
+          }
+        }
+
         .section {
           &.reputation {
             display: flex;
