@@ -1295,10 +1295,10 @@ form .hint {
   flex-direction: column;
   padding: 0;
 }
-.sta.sheet.actor .header-fields .sheet-tabs {
+.sta.sheet.actor .header-fields .character-tabs {
   background-color: #00273f;
 }
-.sta.sheet.actor .header-fields .sheet-tabs .item.active {
+.sta.sheet.actor .header-fields .character-tabs .item.active {
   background-color: #00273f;
 }
 .sta.sheet.actor .header-fields .section.reputation {
