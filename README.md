@@ -1,5 +1,7 @@
 # FoundryVTT v13
-With FoundryVTT v13 STA system released v2.0.0, which is a complete rewrite of the system from the ground up. With that much of the styling from this module was included, at this point I don't see any purpose for continuing this module, the last version of STA it will work with will be v1.3.1 with FOundryVTT v12.
+With FoundryVTT v13 STA system released v2.0.0, which is a complete rewrite of the system from the ground up. With that much of the styling from this module was included, at this point I don't see any purpose for continuing this module, the last version of STA it will work with will be v1.3.1 with FoundryVTT v12.
+
+That said if anyone has a vision for this, and wants to take up development of this module, I would be happy to accept PRs into it, or, open to discussions about transferring ownership.
 
 # Improved LCARS UI for Star Trek Adventures
 This is a module for the Foundry Virtual Tabletop roleplaying platform. It provides an improved LCARS interface for using the "Star Trek Adventures" game system by Modiphius.
